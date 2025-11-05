@@ -1,52 +1,88 @@
 # FUTURE_DS_01
-Interactive Power BI dashboard analyzing BMW car sales data. Includes insights on pricing trends, fuel types, mileage, and transmission performance to support data-driven decisions in automotive sales analytics.
-BMW Sales Dashboard – Data Analytics Internship Project
+AI Developer Productivity Dashboard
 
-Project Overview
+Overview
 
-This project focuses on analyzing BMW car sales data using Power BI to uncover insights into pricing, mileage, fuel type, and other vehicle attributes. The goal is to transform raw data into a visual, interactive Business Sales Dashboard for informed decision-making.
-
-
-Dataset Information
-
-The dataset contains 10,781 BMW listings with the following fields:
-Model – BMW car model (e.g., 1 Series, X5, 3 Series)
-Year – Manufacture year
-Price – Selling price (£)
-Transmission – Automatic / Manual / Semi-Auto
-Mileage – Distance driven (miles)
-Fuel Type – Petrol / Diesel / Hybrid
-Tax – Annual tax amount (£)
-MPG – Miles per gallon (fuel efficiency)
-Engine Size – Engine capacity (litres)
+This project explores how AI usage, coding hours, caffeine intake, sleep, and distractions affect developer productivity and success.
+It combines data analysis and data visualization to uncover trends that influence software development outcomes.
 
 
-Dashboard Insights
+Objectives
 
-The dashboard highlights:
-Average Price by Model and Year
-Price Distribution by Engine Size
-Listings by Fuel Type
-Transmission Preferences
-Overall Price and Mileage Trends
+Analyze developer habits and performance metrics
 
+Visualize relationships between productivity factors
 
-Tools Used
+Understand how AI assistance impacts success rates
 
-Power BI – Data visualization & dashboard creation
-Excel / CSV – Data cleaning and preprocessing
-GitHub – Version control and portfolio hosting
+Build a clean and interactive Power BI Dashboard
 
 
-Key Takeaways
 
-Automatic and diesel models dominate the market.
-Newer models (2018–2020) show higher resale prices.
-Engine size and fuel efficiency strongly affect price variation.
+Dataset
+
+Rows: 500
+
+Columns: 9
+
+Features include:
+
+hours_coding – total hours spent coding
+
+coffee_intake_mg – caffeine consumption
+
+sleep_hours – daily sleep duration
+
+ai_usage_hours – time spent using AI tools
+
+task_success – 1 (success) or 0 (fail)
 
 
-Project Files
 
-bmw.csv – Original dataset
-BMW_Dashboard.pbix – Power BI dashboard file
-README.md – Project documentation
+
+Tools & Technologies
+
+Power BI – Dashboard creation & insights
+
+Python (Pandas, Matplotlib) – Data cleaning & analysis
+
+Excel/CSV – Data source
+
+
+
+Key Visuals
+
+Bar Chart: Coding Hours vs Task Success
+
+Scatter Plot: AI Usage vs Success
+
+Line Chart: Sleep vs Cognitive Load
+
+Pie Chart: Overall Task Success Distribution
+
+KPIs: Average Coding Hours, AI Usage, Sleep, Success Rate
+
+
+Insights
+
+Developers using AI tools for longer hours tend to have a higher success rate.
+
+Better sleep is linked to lower cognitive load.
+
+Excessive caffeine intake slightly correlates with more bugs.
+
+
+
+Project Structure
+
+├── data/
+│   └── ai_dev_productivity.csv
+├── analysis/
+│   └── productivity_analysis.ipynb
+├── visuals/
+│   └── powerbi_dashboard.pbix
+└── README.md
+
+Author
+Lynnix Nyakio Kinyua
+Data Analytics Intern | Power BI Enthusiast | Python Learner
