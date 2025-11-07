@@ -40,6 +40,7 @@ TotalSales = Quantity × UnitPrice
 
 
 
+
 Dashboard Features
 
 KPI Cards: Total Revenue, Orders, Quantity Sold, and Countries
@@ -48,6 +49,7 @@ Donut Chart: Sales by Country
 Line Chart: Monthly Sales Trend
 Map Visual: Global Sales Distribution
 Interactive Filters: Country, Date, Product
+
 
 
 
@@ -63,11 +65,13 @@ DAX (For calculated metrics)
 
 
 
+
 Insights
 
 The UK generated the highest total sales.
 Certain products dominated overall revenue.
 Monthly trends reveal consistent seasonal peaks in sales.
+
 
 
 
