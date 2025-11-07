@@ -1,73 +1,87 @@
 # FUTURE_DS_01
-AI Developer Productivity Dashboard
+E-commerce Sales Dashboard (Power BI Project)
 
 Overview
 
-This project explores how AI usage, coding hours, caffeine intake, sleep, and distractions affect developer productivity and success.
-It combines data analysis and data visualization to uncover trends that influence software development outcomes.
+This project focuses on building an interactive Business Sales Dashboard using Power BI, based on e-commerce transaction data.
+The goal is to uncover key insights about sales performance, top-selling products, and global customer distribution.
+
+
 
 
 Objectives
 
-Analyze developer habits and performance metrics
-Visualize relationships between productivity factors
-Understand how AI assistance impacts success rates
-Build a clean and interactive Power BI Dashboard
+Analyze overall business sales performance
+Identify top-performing products and regions
+Visualize monthly sales trends
+Build a clean, interactive Power BI dashboard
+
+
 
 
 
 Dataset
 
-Rows: 500
-Columns: 9
+The dataset contains detailed e-commerce transactions, including:
+
+InvoiceNo – Order ID
+Description – Product Name
+Quantity – Units Sold
+InvoiceDate – Date of Sale
+UnitPrice – Price per Item
+Country – Customer Location
 
 
-Features include:
+A new column TotalSales was created:
 
-hours_coding – total hours spent coding
-coffee_intake_mg – caffeine consumption
-sleep_hours – daily sleep duration
-ai_usage_hours – time spent using AI tools
-task_success – 1 (success) or 0 (fail)
+TotalSales = Quantity × UnitPrice
+
+
+
+
+
+Dashboard Features
+
+KPI Cards: Total Revenue, Orders, Quantity Sold, and Countries
+Bar Chart: Top 10 Best-Selling Products
+Donut Chart: Sales by Country
+Line Chart: Monthly Sales Trend
+Map Visual: Global Sales Distribution
+Interactive Filters: Country, Date, Product
+
 
 
 
 
 Tools & Technologies
 
-Power BI – Dashboard creation & insights
-Python (Pandas, Matplotlib) – Data cleaning & analysis
-Excel/CSV – Data source
+Power BI (Data Visualization)
+Excel / CSV (Data Source)
+DAX (For calculated metrics)
 
 
 
-Key Visuals
-
-Bar Chart: Coding Hours vs Task Success
-Scatter Plot: AI Usage vs Success
-Line Chart: Sleep vs Cognitive Load
-Pie Chart: Overall Task Success Distribution
-KPIs: Average Coding Hours, AI Usage, Sleep, Success Rate
 
 
 Insights
 
-Developers using AI tools for longer hours tend to have a higher success rate.
-Better sleep is linked to lower cognitive load.
-Excessive caffeine intake slightly correlates with more bugs.
+The UK generated the highest total sales.
+Certain products dominated overall revenue.
+Monthly trends reveal consistent seasonal peaks in sales.
 
 
 
-Project Structure
 
-├── data/
-│   └── ai_dev_productivity.csv
-├── analysis/
-│   └── productivity_analysis.ipynb
-├── visuals/
-│   └── powerbi_dashboard.pbix
-└── README.md
+
+How to Use
+
+1. Download the dataset (data.csv).
+2. Open the .pbix file in Power BI Desktop.
+3. Refresh the data and explore the visuals interactively.
+
+
+
 
 Author
 Lynnix Nyakio Kinyua
-Data Analytics Intern | Power BI Enthusiast | Python Learner
+Data Analytics Intern
